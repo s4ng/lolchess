@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5065b1bb20516668886b84077eb4da23",
+    "revision": "599248d6bbaa34a82eb2d0afea823b3f",
     "url": "/lolchess/index.html"
   },
   {
-    "revision": "770b3259761bc9557771",
-    "url": "/lolchess/static/css/main.dabf41cd.chunk.css"
+    "revision": "536bf23231f0e2391cc2",
+    "url": "/lolchess/static/css/main.5106befd.chunk.css"
   },
   {
     "revision": "8b44617518f277020a9c",
     "url": "/lolchess/static/js/2.795458d1.chunk.js"
   },
   {
-    "revision": "770b3259761bc9557771",
-    "url": "/lolchess/static/js/main.ded08882.chunk.js"
+    "revision": "536bf23231f0e2391cc2",
+    "url": "/lolchess/static/js/main.aee486c6.chunk.js"
   },
   {
     "revision": "1f98cd96c7ae546e7d26",
