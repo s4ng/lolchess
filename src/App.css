@@ -13,7 +13,7 @@
 
 .pick{
   width:30%;
-  height:30px;
+  height:35px;
   border:none;
   border-radius: 3px;
   margin:5px;
@@ -37,4 +37,5 @@
   background-color: #27282e;
   width:780px;
   height:780px;
+  margin-bottom:30px;
 }
