@@ -66,20 +66,20 @@
   border-radius:6px;
   color:#cecece;
   background:#353535; 
-
+  text-align: center;
 }
  
 .coreImg span img
 {
   width:30%;
-  float:left;
+  float:center;
   margin:0px 8px 8px 0;
   border-radius: 7px;
 }
  
 .coreImg:hover span
 {
-  font-size:20px;
+  font-size:18px;
   display:block;
   position:absolute;
   top:0;
@@ -91,5 +91,6 @@
   margin-top:90px;
   margin-left:0;
   overflow:hidden;
-  padding:8px;
+  padding:3px;
+  align-content: center;
 }
