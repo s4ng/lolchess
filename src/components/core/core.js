@@ -36,6 +36,14 @@ import WarmogArmor from '../img/item/core/WarmogArmor.png';
 import WestWind from '../img/item/core/WestWind.png';
 import Yuumi from '../img/item/core/Yuumi.png';
 import ZekesHerald from '../img/item/core/ZekesHerald.png';
+import BFSword from '../img/item/material/BFSword.png';
+import ChainVest from '../img/item/material/ChainVest.png';
+import GiantBelt from '../img/item/material/GiantBelt.png';
+import LargeRod from '../img/item/material/LargeRod.png';
+import NegatronCloak from '../img/item/material/NegatronCloak.png';
+import RecurveBow from '../img/item/material/RecurveBow.png';
+import Spatula from '../img/item/material/Spatula.png';
+import TearGoddes from '../img/item/material/TearGoddes.png';
 
 
 
@@ -43,52 +51,340 @@ function Core() {
   return (
     <div className="coreMain">
       <div className="coreRow">
-        <img src={Aatrox} alt="Aatrox" className="coreImg"/>
-        <img src={Assassin} alt="Assassin" className="coreImg"/>
-        <img src={BloodThirster} alt="BloodThirster" className="coreImg"/>
-        <img src={CursedBlade} alt="CursedBlade" className="coreImg"/>
-        <img src={DragonsClaw} alt="DragonsClaw" className="coreImg"/>
-        <img src={FantomDancer} alt="FantomDancer" className="coreImg"/>
+        <div className="coreImg">
+          <img src={Aatrox} alt="Aatrox" className="itemImg"/>
+          <span>
+            악마
+            <div>
+              <img src={Spatula} alt="Spatula"/><img src={TearGoddes} alt="TearOfGoddes"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={Assassin} alt="Assassin" className="itemImg"/>
+          <span>
+            암살자
+            <div>
+              <img src={Spatula} alt="Spatula"/><img src={BFSword} alt="BFSword"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={BloodThirster} alt="BloodThirster" className="itemImg"/>
+          <span>
+            피바라기
+            <div>
+              <img src={BFSword} alt="BFSword"/><img src={NegatronCloak} alt="NegatronCloak"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={CursedBlade} alt="CursedBlade" className="itemImg"/>
+          <span>
+            저주받은 칼날
+            <div>
+              <img src={RecurveBow} alt="RecurveBow"/><img src={NegatronCloak} alt="NegatronCloak"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={DragonsClaw} alt="DragonsClaw" className="itemImg"/>
+          <span>
+            용의 발톱
+            <div>
+              <img src={NegatronCloak} alt="NegatronCloak"/><img src={NegatronCloak} alt="NegatronCloak"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={FantomDancer} alt="FantomDancer" className="itemImg"/>
+          <span>
+            유령무희
+            <div>
+              <img src={RecurveBow} alt="RecurveBow"/><img src={ChainVest} alt="chainvest"/>
+            </div>
+          </span>
+        </div>
       </div>
       <div className="coreRow">
-        <img src={ForceOfNature} alt="ForceOfNature" className="coreImg"/>
-        <img src={FrozenHeart} alt="FrozenHeart" className="coreImg"/>
-        <img src={GuardianAngel} alt="GuardianAngel" className="coreImg"/>
-        <img src={GuinsooRageblade} alt="GuinsooRageblade" className="coreImg"/>
-        <img src={HammerOfIce} alt="HammerOfIce" className="coreImg"/>
-        <img src={HextechGunblade} alt="HextechGunblade" className="coreImg"/>
+        <div className="coreImg">
+          <img src={ForceOfNature} alt="ForceOfNature" className="itemImg"/>
+          <span>
+            대자연의 힘
+            <div>
+              <img src={Spatula} alt="spatula"/><img src={Spatula} alt="spatula"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={FrozenHeart} alt="FrozenHeart" className="itemImg"/>
+          <span>
+            얼어붙은 심장
+            <div>
+              <img src={ChainVest} alt="chainvest"/><img src={TearGoddes} alt="chainvest"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={GuardianAngel} alt="GuardianAngel" className="itemImg"/>
+          <span>
+            수호천사
+            <div>
+              <img src={BFSword} alt="bfSword"/><img src={ChainVest} alt="chainVest"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={GuinsooRageblade} alt="GuinsooRageblade" className="itemImg"/>
+          <span>
+            구인수의 격노검
+            <div>
+              <img src={RecurveBow} alt="RecurveBow"/><img src={LargeRod} alt="LargeRod"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={HammerOfIce} alt="HammerOfIce" className="itemImg"/>
+          <span>
+            빙하
+            <div>
+              <img src={Spatula} alt="spatula"/><img src={GiantBelt} alt="giantbelt"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={HextechGunblade} alt="HextechGunblade" className="itemImg"/>
+          <span>
+            마법공학 총검
+            <div>
+              <img src={BFSword} alt="bfSword"/><img src={LargeRod} alt="largeRod"/>
+            </div>
+          </span>
+        </div>
       </div>
       <div className="coreRow">
-        <img src={Hush} alt="Hush" className="coreImg"/>
-        <img src={InfinityEdge} alt="InfinityEdge" className="coreImg"/>
-        <img src={IonicSpark} alt="IonicSpark" className="coreImg"/>
-        <img src={KnightVow} alt="KnightVow" className="coreImg"/>
-        <img src={LocketOfTheIronSolari} alt="LocketOfTheIronSolari" className="coreImg"/>
-        <img src={LudenEcho} alt="LudenEcho" className="coreImg"/>
+        <div className="coreImg">
+          <img src={Hush} alt="Hush" className="itemImg"/>
+          <span>
+            침묵
+            <div>
+              <img src={TearGoddes} alt="tearOfGoddes"/><img src={NegatronCloak} alt="negatronCloak"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={InfinityEdge} alt="InfinityEdge" className="itemImg"/>
+          <span>
+            무한의 대검
+            <div>
+              <img src={BFSword} alt="bfSword"/><img src={BFSword} alt="bfSword"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={IonicSpark} alt="IonicSpark" className="itemImg"/>
+          <span>
+            이온 충격기
+            <div>
+              <img src={NegatronCloak} alt="negatronCloak"/><img src={LargeRod} alt="largeRod"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={KnightVow} alt="KnightVow" className="itemImg"/>
+          <span>
+            기사
+            <div>
+              <img src={Spatula} alt="spatula"/><img src={ChainVest} alt="chainVest"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={LocketOfTheIronSolari} alt="LocketOfTheIronSolari" className="itemImg"/>
+          <span>
+            강철의 솔라리 펜던트
+            <div>
+              <img src={ChainVest} alt="chainVest"/><img src={LargeRod} alt="largeRod"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={LudenEcho} alt="LudenEcho" className="itemImg"/>
+          <span>
+            루덴의 메아리
+            <div>
+              <img src={LargeRod} alt="largeRod"/><img src={TearGoddes} alt="tearOfGoddes"/>
+            </div>
+          </span>
+        </div>
       </div>
       <div className="coreRow">
-        <img src={Morellonomicon} alt="Morellonomicon" className="coreImg"/>
-        <img src={RabadonDeathcap} alt="RabadonDeathcap" className="coreImg"/>
-        <img src={RapidFirecannon} alt="RapidFirecannon" className="coreImg"/>
-        <img src={RedBuff} alt="RedBuff" className="coreImg"/>
-        <img src={Redemption} alt="Redemption" className="coreImg"/>
-        <img src={RunaanHurricane} alt="RunaanHurricane" className="coreImg"/>
+        <div className="coreImg">
+          <img src={Morellonomicon} alt="Morellonomicon" className="itemImg"/>
+          <span>
+            모렐로노미콘
+            <div>
+              <img src={LargeRod} alt="largeRod"/><img src={GiantBelt} alt="giantBelt"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={RabadonDeathcap} alt="RabadonDeathcap" className="itemImg"/>
+          <span>
+            라바돈의 죽음모자
+            <div>
+              <img src={LargeRod} alt="largeRod"/><img src={LargeRod} alt="largeRod"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={RapidFirecannon} alt="RapidFirecannon" className="itemImg"/>
+          <span>
+            고속 연사포
+            <div>
+              <img src={RecurveBow} alt="recurveBow"/><img src={RecurveBow} alt="recurveBow"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={RedBuff} alt="RedBuff" className="itemImg"/>
+          <span>
+            붉은 덩굴정령
+            <div>
+              <img src={GiantBelt} alt="giantBelt"/><img src={ChainVest} alt="chainVest"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={Redemption} alt="Redemption" className="itemImg"/>
+          <span>
+            구원
+            <div>
+              <img src={GiantBelt} alt="giantBelt"/><img src={TearGoddes} alt="tearOfGoddes"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={RunaanHurricane} alt="RunaanHurricane" className="itemImg"/>
+          <span>
+            루난의 허리케인
+            <div>
+              <img src={Spatula} alt="spatula"/><img src={NegatronCloak} alt="negatronCloak"/>
+            </div>
+          </span>
+        </div>
       </div>
       <div className="coreRow">
-        <img src={SeraphEmbrace} alt="SeraphEmbrace" className="coreImg"/>
-        <img src={SpearOfShojin} alt="SpearOfShojin" className="coreImg"/>
-        <img src={StatikkShiv} alt="StatikkShiv" className="coreImg"/>
-        <img src={SwordBreaker} alt="SwordBreaker" className="coreImg"/>
-        <img src={SwordMan} alt="SwordMan" className="coreImg"/>
-        <img src={SwordOfTheDivine} alt="SwordOfTheDivine" className="coreImg"/>
+        <div className="coreImg">
+          <img src={SeraphEmbrace} alt="SeraphEmbrace" className="itemImg"/>
+          <span>
+            대천사의 포옹
+            <div>
+              <img src={TearGoddes} alt="tearOfGoddes"/><img src={TearGoddes} alt="tearOfGoddes"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={SpearOfShojin} alt="SpearOfShojin" className="itemImg"/>
+          <span>
+            쇼진의 창
+            <div>
+              <img src={BFSword} alt="bfSword"/><img src={TearGoddes} alt="tearOfGoddes"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={StatikkShiv} alt="StatikkShiv" className="itemImg"/>
+          <span>
+            스태틱의 단검
+            <div>
+              <img src={RecurveBow} alt="recurveBow"/><img src={TearGoddes} alt="tearOfGoddes"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={SwordBreaker} alt="SwordBreaker" className="itemImg"/>
+          <span>
+            파쇄검
+            <div>
+              <img src={ChainVest} alt="chainVest"/><img src={NegatronCloak} alt="negatronCloak"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={SwordMan} alt="SwordMan" className="itemImg"/>
+          <span>
+            검사
+            <div>
+              <img src={Spatula} alt="spatula"/><img src={RecurveBow} alt="recurveBow"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={SwordOfTheDivine} alt="SwordOfTheDivine" className="itemImg"/>
+          <span>
+            신성의 검
+            <div>
+              <img src={BFSword} alt="bfSword"/><img src={RecurveBow} alt="recurveBow"/>
+            </div>
+          </span>
+        </div>
       </div>
       <div className="coreRow">
-        <img src={Thornmail} alt="Thornmail" className="coreImg"/>
-        <img src={TitanicHydra} alt="TitanicHydra" className="coreImg"/>
-        <img src={WarmogArmor} alt="WarmogArmor" className="coreImg"/>
-        <img src={WestWind} alt="WestWind" className="coreImg"/>
-        <img src={Yuumi} alt="Yuumi" className="coreImg"/>
-        <img src={ZekesHerald} alt="ZekesHerald" className="coreImg"/>
+        <div className="coreImg">
+          <img src={Thornmail} alt="Thornmail" className="itemImg"/>
+          <span>
+            가시 갑옷
+            <div>
+              <img src={ChainVest} alt="chainVest"/><img src={ChainVest} alt="chainVest"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={TitanicHydra} alt="TitanicHydra" className="itemImg"/>
+          <span>
+            거대한 히드라
+            <div>
+              <img src={GiantBelt} alt="giantBelt"/><img src={RecurveBow} alt="recurveBow"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={WarmogArmor} alt="WarmogArmor" className="itemImg"/>
+          <span>
+            워모그의 갑옷
+            <div>
+              <img src={GiantBelt} alt="giantBelt"/><img src={GiantBelt} alt="giantBelt"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={WestWind} alt="WestWind" className="itemImg"/>
+          <span>
+            서풍
+            <div>
+              <img src={GiantBelt} alt="giantBelt"/><img src={NegatronCloak} alt="giantBelt"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={Yuumi} alt="Yuumi" className="itemImg"/>
+          <span>
+            마법사
+            <div>
+              <img src={Spatula} alt="spatula"/><img src={LargeRod} alt="largeRod"/>
+            </div>
+          </span>
+        </div>
+        <div className="coreImg">
+          <img src={ZekesHerald} alt="ZekesHerald" className="itemImg"/>
+          <span>
+            지크의 전령
+            <div>
+              <img src={BFSword} alt="bfSword"/><img src={GiantBelt} alt="giantBelt"/>
+            </div>
+          </span>
+        </div>
       </div>
     </div>
   );
