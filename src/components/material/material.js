@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './material.css';
 
 function Material() {
   return (
-    <div className="main">
+    <div className="materialMain">
       Material
     </div>
   );

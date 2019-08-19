@@ -23,10 +23,10 @@ function App() {
         }}>티어</button>
         <button className="pick" onClick={() => {
           fnChangeComp(1)
-        }}>아이템(full)</button>
+        }}>조합표(full)</button>
         <button className="pick" onClick={() => {
           fnChangeComp(2)
-        }}>아이템(core)</button>
+        }}>조합표(core)</button>
       </div>
       <div className="container">
         <scene.comp/>

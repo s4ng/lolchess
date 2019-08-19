@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './tier.css';
 
 function Tier() {
   return (
-    <div className="main">
+    <div className="tierMain">
       Tier
     </div>
   );
