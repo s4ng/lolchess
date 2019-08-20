@@ -101,6 +101,7 @@
 
 @media (max-width:800px){
     .mItem{
+        width:10%;
         margin:2px;
     }
     .mItem:hover span{

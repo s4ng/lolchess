@@ -96,6 +96,9 @@
   opacity: 0.9;
 }
 @media (max-width:800px){
+    .coreImg{
+        width:13%;
+    }
     .coreImg:hover span{
         margin-top:40px;
         font-size: 14px;
