@@ -88,7 +88,7 @@
   width:150px;
   height:auto;
   border:none;
-  margin-top:90px;
+  margin-top:100px;
   margin-left:-30px;
   overflow:hidden;
   padding:3px;
@@ -100,7 +100,7 @@
         width:13%;
     }
     .coreImg:hover span{
-        margin-top:40px;
+        margin-top:60px;
         font-size: 14px;
         width:120px;
     }

@@ -51,7 +51,7 @@ function Material() {
       <div className="mRow">
         <div className="mItem"></div>
         <div className="mItem">
-          <img src={BFSword} alt="BFSword" className="mItemImg"/>
+          <img src={BFSword} alt="BFSword" className="mItemImg" />
           <span>
             <p>BF대검</p>
             <p>공격력 +20</p>

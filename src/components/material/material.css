@@ -155,7 +155,7 @@
         margin:2px;
     }
     .mItem:hover span{
-        margin-top:40px;
+        margin-top:50px;
         font-size: 14px;
         width:120px;
     }
@@ -164,7 +164,7 @@
         margin:2px;
     }
     .mItem-bot:hover span{
-        margin-top:-100px;
+        margin-top:-105px;
         font-size: 14px;
         width:120px;
     }
