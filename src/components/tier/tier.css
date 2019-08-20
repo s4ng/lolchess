@@ -31,11 +31,75 @@
     }
 }
 .tierMain{
-    animation: fadein 0.5s;
-    -moz-animation: fadein 0.3s; /* Firefox */
-    -webkit-animation: fadein 0.3s; /* Safari and Chrome */
-    -o-animation: fadein 0.3s; /* Opera */
+    animation: fadein 0.3s;
+    -moz-animation: fadein 0.2s; /* Firefox */
+    -webkit-animation: fadein 0.2s; /* Safari and Chrome */
+    -o-animation: fadein 0.2s; /* Opera */
     color : #ca9372;
     height:100%;
     width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.searchContainer{
+    display: flex;
+    height:20%;
+    justify-content: center;
+}
+.searchBar{
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    height:35%;
+    width:70%;
+    margin-top:50px;
+}
+.searchBar input{
+    width:100%;
+    border:none;
+    padding:10px 20px 10px 20px;
+    outline: none;
+    border-radius: 7px;
+    font-size:17px;
+}
+.searchButton{
+    height:80%;
+    width:80px;
+    margin:5px;
+    border:none;
+    outline:none;
+    border-radius: 7px;
+    background-color: #ca9372;
+    color:white;
+}
+.searchButton:hover{
+    background-color: #dcb8a3;
+}
+
+.searchButton:active{
+    background-color: #b97046;
+    transform: translateY(2px);
+  }
+
+.emblem{
+    display:flex;
+    height:45%;
+    justify-content: center;
+}
+
+.tierEmblem{
+    height:100%;
+}
+.tierRank{
+    display:flex;
+    height:10%;
+    justify-content: center;
+}
+
+.rankText{
+    height:20%;
+    display: flex;
+    font-size:45px;
+    justify-content: center;
 }
