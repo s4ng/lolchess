@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './tier.css';
 import Iron from '../img/tier/Iron.png';
 import Bronze from '../img/tier/Bronze.png';
@@ -11,23 +11,27 @@ import Grandmaster from '../img/tier/Grandmaster.png';
 import Challenger from '../img/tier/Challenger.png';
 
 function Tier() {
-  let userName="상근띠";
+  const[user, setUser] = useState({
+    name:'',
+    tier:'',
+    rank:''
+  });
   return (
     <div className="tierMain">
       <div className="searchContainer">
         <div className="searchBar">
           <input type="text" placeholder="테스트 중입니다..."/>
-          <button className="searchButton"><b>검색</b></button>
+          <button className="searchButton" onClick={() => {setUser({name:'상근띠', tier:'Challenger', rank:'I' })}}><b>검색</b></button>
         </div>
       </div>
       <div className="emblem">
-        <img src={Challenger} alt="challenger" className="tierEmblem"/>
+        <img src={Challenger} alt="challenger" className="tierEmblem" id="tierImg"/>
       </div>
       <div className="tierRank">
-        <h1 className="rankText">Challenger I</h1>
+        <h1 className="rankText">{user.tier} {user.rank}</h1>
       </div>
       <div>
-        <h1 className="rankText">{userName}</h1>
+        <h1 className="rankText">{user.name}</h1>
       </div>
     </div>
   );
