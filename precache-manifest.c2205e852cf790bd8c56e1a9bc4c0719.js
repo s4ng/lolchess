@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4754f3eaf1567eb5a00f269a1dbadad9",
+    "revision": "eb2e23d239441bad45d4e77189acef8a",
     "url": "/lolchess/index.html"
   },
   {
