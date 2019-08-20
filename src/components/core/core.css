@@ -89,9 +89,16 @@
   height:auto;
   border:none;
   margin-top:90px;
-  margin-left:0;
+  margin-left:-30px;
   overflow:hidden;
   padding:3px;
   align-content: center;
   opacity: 0.9;
 }
+@media (max-width:800px){
+    .coreImg:hover span{
+        margin-top:40px;
+        font-size: 14px;
+        width:120px;
+    }
+  }

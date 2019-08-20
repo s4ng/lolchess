@@ -4,7 +4,7 @@ import './tier.css';
 function Tier() {
   return (
     <div className="tierMain">
-      Tier
+      API준비중
     </div>
   );
 }

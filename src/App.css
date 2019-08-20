@@ -38,3 +38,18 @@
   height:750px;
   margin-bottom:30px;
 }
+
+@media (max-width:800px){
+  .buttons{
+    margin-top:50px;
+    width:100%;
+  }
+  .pick{
+    font-size:15px;
+  }
+    .container{
+      width:100%;
+      height:auto;
+      padding-bottom:30px;
+    }
+}
