@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lolchess/static/css/main.ddcf5e17.chunk.css",
+    "main.css": "/lolchess/static/css/main.00d345e4.chunk.css",
     "main.js": "/lolchess/static/js/main.3f68efb4.chunk.js",
     "main.js.map": "/lolchess/static/js/main.3f68efb4.chunk.js.map",
     "runtime~main.js": "/lolchess/static/js/runtime~main.48fc4445.js",
@@ -8,9 +8,9 @@
     "static/js/2.6ad26cf9.chunk.js": "/lolchess/static/js/2.6ad26cf9.chunk.js",
     "static/js/2.6ad26cf9.chunk.js.map": "/lolchess/static/js/2.6ad26cf9.chunk.js.map",
     "index.html": "/lolchess/index.html",
-    "precache-manifest.f87e881da723713ae9fdbcd51df7fcf0.js": "/lolchess/precache-manifest.f87e881da723713ae9fdbcd51df7fcf0.js",
+    "precache-manifest.1a576e6980575ca5f5a90b05c2de51b8.js": "/lolchess/precache-manifest.1a576e6980575ca5f5a90b05c2de51b8.js",
     "service-worker.js": "/lolchess/service-worker.js",
-    "static/css/main.ddcf5e17.chunk.css.map": "/lolchess/static/css/main.ddcf5e17.chunk.css.map",
+    "static/css/main.00d345e4.chunk.css.map": "/lolchess/static/css/main.00d345e4.chunk.css.map",
     "static/media/ForceOfNature.png": "/lolchess/static/media/ForceOfNature.69118b37.png"
   }
 }
