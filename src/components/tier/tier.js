@@ -12,8 +12,8 @@ import Challenger from '../img/tier/Challenger.png';
 
 function Tier() {
   const[user, setUser] = useState({
-    name:'',
-    tier:'',
+    name:'아이템 조합표',
+    tier:'롤토체스 소환사 검색,',
     rank:''
   });
   return (
