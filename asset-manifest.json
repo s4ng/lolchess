@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lolchess/static/css/main.d63b6e47.chunk.css",
-    "main.js": "/lolchess/static/js/main.8bc26fb1.chunk.js",
-    "main.js.map": "/lolchess/static/js/main.8bc26fb1.chunk.js.map",
+    "main.js": "/lolchess/static/js/main.344bdd0b.chunk.js",
+    "main.js.map": "/lolchess/static/js/main.344bdd0b.chunk.js.map",
     "runtime~main.js": "/lolchess/static/js/runtime~main.48fc4445.js",
     "runtime~main.js.map": "/lolchess/static/js/runtime~main.48fc4445.js.map",
     "static/js/2.579b62a3.chunk.js": "/lolchess/static/js/2.579b62a3.chunk.js",
     "static/js/2.579b62a3.chunk.js.map": "/lolchess/static/js/2.579b62a3.chunk.js.map",
     "index.html": "/lolchess/index.html",
-    "precache-manifest.0734c03bfdb10bcba2784abcbcbba792.js": "/lolchess/precache-manifest.0734c03bfdb10bcba2784abcbcbba792.js",
+    "precache-manifest.114a421e159dc7692b16e5f75c7fb0b2.js": "/lolchess/precache-manifest.114a421e159dc7692b16e5f75c7fb0b2.js",
     "service-worker.js": "/lolchess/service-worker.js",
     "static/css/main.d63b6e47.chunk.css.map": "/lolchess/static/css/main.d63b6e47.chunk.css.map",
     "static/media/Bronze.png": "/lolchess/static/media/Bronze.d6bacb17.png",
