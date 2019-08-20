@@ -563,63 +563,63 @@ function Material() {
         </div>
       </div>
       <div className="mRow">
-        <div className="mItem">
+        <div className="mItem-bot">
           <img src={Spatula} alt="spatula" className="mItemImg"/>
           <span>
             <p>뒤집개</p>
             <p>특별한 능력이 있을지도..</p>
           </span>
         </div>
-        <div className="mItem">
+        <div className="mItem-bot">
           <img src={Assassin} alt="assassin" className="mItemImg"/>
           <span>
             <p>암살자</p>
             <img src={Spatula} alt="spatula"/><img src={BFSword} alt="bf"/>
           </span>
         </div>
-        <div className="mItem">
+        <div className="mItem-bot">
           <img src={SwordMan} alt="swordMan" className="mItemImg"/>
           <span>
             <p>검사</p>
             <img src={Spatula} alt="spatula"/><img src={RecurveBow} alt="recurveBow"/>
           </span>
         </div>
-        <div className="mItem">
+        <div className="mItem-bot">
           <img src={KnightVow} alt="knightVow" className="mItemImg"/>
           <span>
             <p>기사</p>
             <img src={Spatula} alt="spatula"/><img src={ChainVest} alt="chainVest"/>
           </span>
         </div>
-        <div className="mItem">
+        <div className="mItem-bot">
           <img src={RunaanHurricane} alt="runaanHurricane" className="mItemImg"/>
           <span>
             <p>루난의 허리케인</p>
             <img src={Spatula} alt="spatula"/><img src={NegatronCloak} alt="negatronCloak"/>
           </span>
         </div>
-        <div className="mItem">
+        <div className="mItem-bot">
           <img src={Yuumi} alt="yuumi" className="mItemImg"/>
           <span>
             <p>마법사</p>
             <img src={Spatula} alt="spatula"/><img src={LargeRod} alt="largeRod"/>
           </span>
         </div>
-        <div className="mItem">
+        <div className="mItem-bot">
           <img src={Aatrox} alt="Aatrox" className="mItemImg"/>
           <span>
             <p>악마</p>
             <img src={Spatula} alt="spatula"/><img src={TearGoddes} alt="tearOfGoddes"/>
           </span>
         </div>
-        <div className="mItem">
+        <div className="mItem-bot">
           <img src={HammerOfIce} alt="hammerOfIce" className="mItemImg"/>
           <span>
             <p>빙하</p>
             <img src={Spatula} alt="spatula"/><img src={GiantBelt} alt="giantBelt"/>
           </span>
         </div>
-        <div className="mItem">
+        <div className="mItem-bot">
           <img src={ForceOfNature} alt="forceOfNature" className="mItemImg"/>
           <span>
             <p>대자연의 힘</p>
