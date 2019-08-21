@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9713209a46c048db7c664d174ad5498",
+    "revision": "43be9d11856652ac8d47b658c073d0a2",
     "url": "/lolchess/index.html"
   },
   {
-    "revision": "197d0ff09e79d007571f",
-    "url": "/lolchess/static/css/main.d63b6e47.chunk.css"
+    "revision": "95fd0d5569693abf432e",
+    "url": "/lolchess/static/css/main.2bdde9de.chunk.css"
   },
   {
-    "revision": "e1b9666c9a3135c58b8a",
-    "url": "/lolchess/static/js/2.579b62a3.chunk.js"
+    "revision": "ae4c6775be7c5ecc8a20",
+    "url": "/lolchess/static/js/2.38f87f99.chunk.js"
   },
   {
-    "revision": "197d0ff09e79d007571f",
-    "url": "/lolchess/static/js/main.344bdd0b.chunk.js"
+    "revision": "95fd0d5569693abf432e",
+    "url": "/lolchess/static/js/main.37f18cf3.chunk.js"
   },
   {
     "revision": "1f98cd96c7ae546e7d26",
@@ -58,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0c6c578e19f47dfc5b56d3e86ed7b839",
     "url": "/lolchess/static/media/Silver.0c6c578e.png"
+  },
+  {
+    "revision": "faef1ba90e621a636bb4d5c9feef6f0d",
+    "url": "/lolchess/static/media/tftLogo2.faef1ba9.png"
   }
 ]);
