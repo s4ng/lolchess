@@ -4,7 +4,7 @@
 
 ---
 
-### 사용한 Tech
+### 사용한 기술
 
 Create-react-app, Riot API, hooks
 
