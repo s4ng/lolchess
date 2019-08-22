@@ -36,7 +36,13 @@
   background-color: #27282e;
   width:780px;
   height:750px;
-  margin-bottom:30px;
+}
+
+.copyRight{
+  font-size:6px;
+  color:#b97046;
+  height:30px;
+  margin : 10px;
 }
 
 @media (max-width:800px){
@@ -47,9 +53,12 @@
   .pick{
     font-size:15px;
   }
-    .container{
-      width:100%;
-      height:auto;
-      padding-bottom:30px;
-    }
+  .container{
+    width:100%;
+    height:auto;
+    padding-bottom:30px;
+  }
+  .copyRight{
+    display:none;
+  }
 }

@@ -31,6 +31,9 @@ function App() {
       <div className="container">
         <scene.comp/>
       </div>
+      <div className="copyRight">
+        ⓒ2019, Sang-geun Lee All rights reserved
+      </div>
     </div>
   );
 }
