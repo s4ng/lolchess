@@ -10,70 +10,83 @@ import Master from '../img/tier/Master.png';
 import Grandmaster from '../img/tier/Grandmaster.png';
 import Challenger from '../img/tier/Challenger.png';
 import tftLogo2 from '../img/tftLogo2.png';
+import ApiDefault from '../apiDefault';
+import axios from 'axios';
 
 function Tier() {
+  const[name, setName] = useState('아이템 조합표');
   const[user, setUser] = useState({
-    name:'아이템 조합표',
     tier:'롤토체스 소환사 검색',
     rank:'',
-    point:0
+    point:'',
+    img:tftLogo2
   });
   const[img, setImg] = useState({img:tftLogo2});
-  const[lp, setLp] = useState('');
   const[input, setInput] = useState('');
-  let userTier, userRank, userPoint, tmp='';
-  //테스트용 코드
-  userTier='Platinum';
-  userRank='III';
-  userPoint=0;
-  //테스트용 코드
-  function fnSearch(){
-    setUser({
-      name:input,
-      tier:userTier,
-      rank:userRank,
-      point:userPoint
-    });
-    switch(userTier){
-      case 'Iron' : setImg({img:Iron}); break;
-      case 'Bronze' : setImg({img:Bronze}); break;
-      case 'Silver' : setImg({img:Silver}); break;
-      case 'Gold' : setImg({img:Gold}); break;
-      case 'Platinum' : setImg({img:Platinum}); break;
-      case 'Diamond' : setImg({img:Diamond}); break;
-      case 'Master' : setImg({img:Master}); break;
-      case 'Grandmaster' : setImg({img:Grandmaster}); break;
-      case 'Challenger' : setImg({img:Challenger}); break;
-      default : setImg({img:tftLogo2}); break;
-    };
-    tmp = tmp +'/ ' +user.point + 'LP';
-    setLp(tmp);
+
+  
+  function getLolData(){
+    let summonerUrl, leagueUrl, index;
+
+    summonerUrl = `${ApiDefault}/lol/summoner/v4/summoners/by-name/${input}?api_key=${ApiDefault.key}`;
+    axios.get(summonerUrl)
+    .then (summonerData => {
+      leagueUrl = `${ApiDefault}/lol/league/v4/entries/by-summoner/${summonerData.data.id}?api_key=${ApiDefault.key}`;
+      axios.get(leagueUrl)
+      .then (leagueData => {
+        for(let i = 0; i < leagueData.data.length; i++){
+          if(leagueData.data[i].queueType === 'RANKED_TFT'){
+            index = i;
+            break;
+          }
+        }
+        setName(input);
+        setUser({
+          tier:leagueData.data[index].tier ,
+          rank:leagueData.data[index].rank + ' -' ,
+          point:'- ' + leagueData.data[index].leaguePoints + 'LP'
+        })
+        switch(leagueData.data[index].tier){
+          case 'IRON' : setImg({img:Iron}); break;
+          case 'BRONZE' : setImg({img:Bronze}); break;
+          case 'SILVER' : setImg({img:Silver}); break;
+          case 'GOLD' : setImg({img:Gold}); break;
+          case 'PLATINUM' : setImg({img:Platinum}); break;
+          case 'DIAMOND' : setImg({img:Diamond}); break;
+          case 'MASTER' : setImg({img:Master}); break;
+          case 'GRANDMASTER' : setImg({img:Grandmaster}); break;
+          case 'CHALLENGER' : setImg({img:Challenger}); break;
+          default : setImg({img:tftLogo2}); break;
+        };
+      }).catch( error => alert('전략적 팀 전투 데이터가 없습니다!'));
+    }).catch( error => alert('소환사 데이터가 없습니다!'));
   }
+
   function handleChange(e){
     setInput(e.target.value);
   }
   function handleKeyPress(e){
     if(e.key === 'Enter'){
-      fnSearch();
+      getLolData();
     }
   }
   return (
     <div className="tierMain">
       <div className="searchContainer">
         <div className="searchBar">
-          <input value={input} type="text" placeholder="테스트 중입니다..." 
+          <input value={input} type="text" placeholder="소환사 이름..." 
           onKeyPress={handleKeyPress} onChange={handleChange}/>
-          <button className="searchButton" onClick={fnSearch}><b>검색</b></button>
+          <button className="searchButton" onClick={getLolData}><b>검색</b></button>
         </div>
       </div>
       <div className="emblem">
         <img src={img.img} alt="tierEmblem" className="tierEmblem" id="tierImg"/>
       </div>
       <div className="tierRank">
-        <p className="rankText">{user.tier} {user.rank} <span className="lpArea">{lp}</span></p>
+        <p className="rankText">{user.tier} {user.rank}{user.point}</p>
       </div>
       <div>
-        <p className="rankText">{user.name}</p>
+        <p className="rankText">{name}</p>
       </div>
     </div>
   );

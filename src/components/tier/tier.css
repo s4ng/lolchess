@@ -113,7 +113,11 @@
         
     }
     .tierEmblem{
-        height:200px;
+        height:150px;
+    }
+
+    .tierRank{
+        height:50px;
     }
     .rankText{
         font-size: 30px;
