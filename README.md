@@ -6,7 +6,7 @@
 
 #### Using Tech
 
-React, Riot API, hooks
+Create-react-app, Riot API, hooks
 
 #### About
 
