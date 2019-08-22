@@ -28,10 +28,10 @@ function Tier() {
   function getLolData(){
     let summonerUrl, leagueUrl, index;
 
-    summonerUrl = `${ApiDefault}/lol/summoner/v4/summoners/by-name/${input}?api_key=${ApiDefault.key}`;
+    summonerUrl = `${ApiDefault.url}/lol/summoner/v4/summoners/by-name/${input}?api_key=${ApiDefault.key}`;
     axios.get(summonerUrl)
     .then (summonerData => {
-      leagueUrl = `${ApiDefault}/lol/league/v4/entries/by-summoner/${summonerData.data.id}?api_key=${ApiDefault.key}`;
+      leagueUrl = `${ApiDefault.url}/lol/league/v4/entries/by-summoner/${summonerData.data.id}?api_key=${ApiDefault.key}`;
       axios.get(leagueUrl)
       .then (leagueData => {
         for(let i = 0; i < leagueData.data.length; i++){
