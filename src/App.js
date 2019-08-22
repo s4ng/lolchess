@@ -32,7 +32,7 @@ function App() {
         <scene.comp/>
       </div>
       <div className="copyRight">
-        ⓒ2019, Sang-geun Lee All rights reserved
+        ⓒ2019, <a href="https://github.com/s4ng">Sang-geun Lee</a> All rights reserved
       </div>
     </div>
   );
