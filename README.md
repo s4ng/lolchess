@@ -27,3 +27,8 @@ Create-react-app, Riot API, hooks
 실험해보니 모두 막힌듯 하다.
 
 만약 적절한 CORS이슈를 차단할 수 있는 방법이 있다면 시도 후 https://s4ng.github.io/lolchess/ 에 접속해보자.
+
+
+### 앞으로 해야할 것
+
+1. api 요청 보낼 서버 구축하고 프로젝트 완성하기..
