@@ -24,4 +24,4 @@ Create-react-app, Riot API, hooks
 
 현재 CORS이슈를 브라우저 단에서 차단시키는 방법이 있었으나,(브라우저 바로가기에 웹 시큐리티 차단하는 방법) 실험해보니 모두 막힌듯 하다.
 
-만약 적절한 CORS이슈를 차단할 수 있는 방법이 있다면 시도 후 https://s4ng.github.io/lolchess/에 접속해보자.
+만약 적절한 CORS이슈를 차단할 수 있는 방법이 있다면 시도 후 https://s4ng.github.io/lolchess/ 에 접속해보자.
