@@ -6,8 +6,8 @@
 
 ### Using tech
 
--React
--Javascript
+- React
+- Javascript
 
 ### *About*
 
